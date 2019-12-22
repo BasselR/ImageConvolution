@@ -1,4 +1,6 @@
 # ImageConvolution
+For information: https://en.wikipedia.org/wiki/Kernel_(image_processing)
+
 This C program performs a convolution on a given image file, based on a provided convolution kernel.
 
 To run the program, first execute the makefile using `make`
