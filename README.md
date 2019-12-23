@@ -3,11 +3,11 @@ For information: https://en.wikipedia.org/wiki/Kernel_(image_processing)
 
 This C program performs a convolution on a given image file, based on a provided convolution kernel.
 
-To run the program, first execute the makefile using `make`
+To run the program, execute the script "filter" like so: `./filter input.ppm kernel output.ppm`
 
-Then you can run the generated program "filter" like so: `./filter input.ppm kernel output.ppm`
+(Alternatively, you can run the makefile and it will build the executable script for you)
 
-This will use the kernel provided in the file "kernel" to perform an image convolution on the provided PPM file, and output the result in another PPM file.
+Running the script with the specified parameters will use the kernel provided in the file "kernel" to perform an image convolution on the provided PPM file, and output the result in another PPM file.
 
 For example: `./filter sample.ppm kernel sampleOut.ppm`
 
